@@ -1,0 +1,37 @@
+.drawer {
+  width: 80%;
+  background-color: black;
+  height: 100vh;
+  position: fixed;
+  top: 0;
+  left: 0;
+  max-width: 400px;
+  z-index: 1000;
+  padding: 2rem;
+}
+
+.drawer .wrapper-nav {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: baseline;
+  margin-top: 5rem;
+}
+
+.wrapper-nav li {
+  width: 100%;
+  margin-bottom: 1rem;
+}
+.wrapper-nav li a {
+  color: gold;
+  font-size: 1.3rem;
+  text-transform: capitalize;
+}
+
+.cross {
+  position: absolute;
+  top: 30px;
+  right: 30px;
+  color: white;
+  font-size: 1.5rem;
+}

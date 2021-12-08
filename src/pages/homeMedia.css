@@ -1,0 +1,51 @@
+@media (max-width: 1200px) {
+  .heading-hero {
+    font-size: 1.2rem;
+  }
+  .projects {
+    padding: 1rem;
+    flex-direction: column;
+  }
+  .cover {
+    width: 100%;
+    margin-bottom: 1rem;
+  }
+  .numbers {
+    padding: 1rem;
+    flex-wrap: wrap;
+  }
+  .individual {
+    width: 49%;
+    margin-bottom: 1rem;
+  }
+  .gallary {
+    padding: 1rem;
+  }
+  .row {
+    flex-direction: column;
+  }
+  .contact-main {
+    height: auto;
+  }
+  .contact-bg {
+    height: auto;
+  }
+  .contact {
+    position: relative;
+    top: 0;
+    left: 0;
+    transform: translateX(0%);
+    width: 100%;
+    border-radius: 0px;
+    padding: 1rem;
+  }
+  .space {
+    display: none;
+  }
+  .links-404 {
+    flex-direction: column;
+  }
+  .links-404 li {
+    margin-top: 1rem;
+  }
+}
